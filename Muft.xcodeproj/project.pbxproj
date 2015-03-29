@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A903FAF1923E6C8007202AE /* 129999-simple-red-square-icon-transport-travel-transportation-car9-sc44.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A903FAE1923E6C8007202AE /* 129999-simple-red-square-icon-transport-travel-transportation-car9-sc44.png */; };
+		0A96463519118DF0006CF535 /* RHUIImageResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A96463419118DF0006CF535 /* RHUIImageResizing.m */; };
+		510C90F318DB6B0E00AEDDE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C90F218DB6B0E00AEDDE4 /* Foundation.framework */; };
+		510C90F518DB6B0E00AEDDE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C90F418DB6B0E00AEDDE4 /* CoreGraphics.framework */; };
+		510C90F718DB6B0E00AEDDE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C90F618DB6B0E00AEDDE4 /* UIKit.framework */; };
+		510C90FD18DB6B0E00AEDDE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 510C90FB18DB6B0E00AEDDE4 /* InfoPlist.strings */; };
+		510C90FF18DB6B0E00AEDDE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C90FE18DB6B0E00AEDDE4 /* main.m */; };
+		510C910318DB6B0E00AEDDE4 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C910218DB6B0E00AEDDE4 /* RHAppDelegate.m */; };
+		510C910918DB6B0E00AEDDE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C910818DB6B0E00AEDDE4 /* ViewController.m */; };
+		510C910B18DB6B0E00AEDDE4 /* Rose Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 510C910A18DB6B0E00AEDDE4 /* Rose Logo.jpg */; };
+		510C912818DB763600AEDDE4 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 510C912718DB763600AEDDE4 /* imgres.jpg */; };
+		510C912A18DB7DE800AEDDE4 /* background_not_complete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 510C912918DB7DE800AEDDE4 /* background_not_complete.jpg */; };
+		512A138A18FC6508008DEE7D /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 512A138918FC6508008DEE7D /* List.m */; };
+		512A138D18FC66CA008DEE7D /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 512A138C18FC66CA008DEE7D /* Parser.m */; };
+		51358FC219241495006A3D2E /* apple-touch-icon-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FB919241495006A3D2E /* apple-touch-icon-57x57.png */; };
+		51358FC319241495006A3D2E /* apple-touch-icon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FBA19241495006A3D2E /* apple-touch-icon-72x72.png */; };
+		51358FC419241495006A3D2E /* apple-touch-icon-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FBB19241495006A3D2E /* apple-touch-icon-76x76.png */; };
+		51358FC519241495006A3D2E /* apple-touch-icon-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FBC19241495006A3D2E /* apple-touch-icon-114x114.png */; };
+		51358FC619241495006A3D2E /* apple-touch-icon-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FBD19241495006A3D2E /* apple-touch-icon-120x120.png */; };
+		51358FC719241495006A3D2E /* apple-touch-icon-144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FBE19241495006A3D2E /* apple-touch-icon-144x144.png */; };
+		51358FC819241495006A3D2E /* apple-touch-icon-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FBF19241495006A3D2E /* apple-touch-icon-152x152.png */; };
+		51358FC919241495006A3D2E /* apple-touch-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51358FC019241495006A3D2E /* apple-touch-icon.png */; };
+		51358FCA19241495006A3D2E /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 51358FC119241495006A3D2E /* favicon.ico */; };
+		5154790E1923F02000ADF090 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5154790D1923F02000ADF090 /* LoginViewController.m */; };
+		51569D2B1916BB4500CD05BF /* category_129921_simple_red_square_icon_symbols_shapes_spinner1 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 51569D2A1916BB4500CD05BF /* category_129921_simple_red_square_icon_symbols_shapes_spinner1 (1).png */; };
+		51569D311916BE4000CD05BF /* DealCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 51569D301916BE4000CD05BF /* DealCategory.m */; };
+		51569D341916BF7900CD05BF /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51569D331916BF7900CD05BF /* CategoryViewController.m */; };
+		5180C4411924315A00C19404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5180C4401924315A00C19404 /* Images.xcassets */; };
+		51B55F631917F23E0017DF6C /* rosehulmanlogo (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51B55F621917F23E0017DF6C /* rosehulmanlogo (1).jpg */; };
+		51BE328818DBC4A000C4678E /* Official Rose-Hulman Res-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BE328518DBC4A000C4678E /* Official Rose-Hulman Res-13.jpg */; };
+		51BE328918DBC4A000C4678E /* Official Rose-Hulman Red & White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BE328618DBC4A000C4678E /* Official Rose-Hulman Red & White.jpg */; };
+		51BE328A18DBC4A000C4678E /* RH-AA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51BE328718DBC4A000C4678E /* RH-AA.jpg */; };
+		51BE329218DBCC5800C4678E /* 129091-simple-red-square-icon-food-beverage-knife-fork2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE328C18DBCC5800C4678E /* 129091-simple-red-square-icon-food-beverage-knife-fork2.png */; };
+		51BE329318DBCC5800C4678E /* 129300-simple-red-square-icon-people-things-bed1-sc43.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE328D18DBCC5800C4678E /* 129300-simple-red-square-icon-people-things-bed1-sc43.png */; };
+		51BE329418DBCC5800C4678E /* 129867-simple-red-square-icon-symbols-shapes-comment-bubbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE328E18DBCC5800C4678E /* 129867-simple-red-square-icon-symbols-shapes-comment-bubbles.png */; };
+		51BE329518DBCC5800C4678E /* 128520-simple-red-square-icon-business-cart-7dots.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE328F18DBCC5800C4678E /* 128520-simple-red-square-icon-business-cart-7dots.png */; };
+		51BE329618DBCC5800C4678E /* 128579-simple-red-square-icon-business-dollar-solid.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE329018DBCC5800C4678E /* 128579-simple-red-square-icon-business-dollar-solid.png */; };
+		51BE329718DBCC5800C4678E /* 129045-simple-red-square-icon-food-beverage-drink-glass5-sc48.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BE329118DBCC5800C4678E /* 129045-simple-red-square-icon-food-beverage-drink-glass5-sc48.png */; };
+		51EBB72218FCAF6E00524084 /* DealDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EBB72118FCAF6E00524084 /* DealDetailViewController.m */; };
+		DEBF8E281A59E6240062DFED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBF8E251A59E6240062DFED /* Default-568h@2x.png */; };
+		DEBF8E291A59E6240062DFED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBF8E261A59E6240062DFED /* Default.png */; };
+		DEBF8E2A1A59E6240062DFED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBF8E271A59E6240062DFED /* Default@2x.png */; };
+		DEF7B3641A51FC8A00D0D43A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510C910418DB6B0E00AEDDE4 /* Main.storyboard */; };
+		E451E3A41A1FFBEA00D7E46E /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E451E3A31A1FFBEA00D7E46E /* MasterTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A903FAE1923E6C8007202AE /* 129999-simple-red-square-icon-transport-travel-transportation-car9-sc44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129999-simple-red-square-icon-transport-travel-transportation-car9-sc44.png"; sourceTree = "<group>"; };
+		0A96463319118DF0006CF535 /* RHUIImageResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHUIImageResizing.h; sourceTree = "<group>"; };
+		0A96463419118DF0006CF535 /* RHUIImageResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHUIImageResizing.m; sourceTree = "<group>"; };
+		510C90EF18DB6B0E00AEDDE4 /* Muft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		510C90F218DB6B0E00AEDDE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		510C90F418DB6B0E00AEDDE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		510C90F618DB6B0E00AEDDE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		510C90FA18DB6B0E00AEDDE4 /* Muft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Muft-Info.plist"; sourceTree = "<group>"; };
+		510C90FC18DB6B0E00AEDDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		510C90FE18DB6B0E00AEDDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		510C910018DB6B0E00AEDDE4 /* Muft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Muft-Prefix.pch"; sourceTree = "<group>"; };
+		510C910118DB6B0E00AEDDE4 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
+		510C910218DB6B0E00AEDDE4 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		510C910518DB6B0E00AEDDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		510C910718DB6B0E00AEDDE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		510C910818DB6B0E00AEDDE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		510C910A18DB6B0E00AEDDE4 /* Rose Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rose Logo.jpg"; sourceTree = "<group>"; };
+		510C911118DB6B0E00AEDDE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		510C912718DB763600AEDDE4 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		510C912918DB7DE800AEDDE4 /* background_not_complete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_not_complete.jpg; sourceTree = "<group>"; };
+		512A138818FC6508008DEE7D /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		512A138918FC6508008DEE7D /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		512A138B18FC66CA008DEE7D /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		512A138C18FC66CA008DEE7D /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		51358FB919241495006A3D2E /* apple-touch-icon-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-57x57.png"; sourceTree = "<group>"; };
+		51358FBA19241495006A3D2E /* apple-touch-icon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-72x72.png"; sourceTree = "<group>"; };
+		51358FBB19241495006A3D2E /* apple-touch-icon-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-76x76.png"; sourceTree = "<group>"; };
+		51358FBC19241495006A3D2E /* apple-touch-icon-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-114x114.png"; sourceTree = "<group>"; };
+		51358FBD19241495006A3D2E /* apple-touch-icon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-120x120.png"; sourceTree = "<group>"; };
+		51358FBE19241495006A3D2E /* apple-touch-icon-144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-144x144.png"; sourceTree = "<group>"; };
+		51358FBF19241495006A3D2E /* apple-touch-icon-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-152x152.png"; sourceTree = "<group>"; };
+		51358FC019241495006A3D2E /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		51358FC119241495006A3D2E /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		5154790C1923F02000ADF090 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5154790D1923F02000ADF090 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		51569D2A1916BB4500CD05BF /* category_129921_simple_red_square_icon_symbols_shapes_spinner1 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_129921_simple_red_square_icon_symbols_shapes_spinner1 (1).png"; sourceTree = "<group>"; };
+		51569D2F1916BE4000CD05BF /* DealCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealCategory.h; sourceTree = "<group>"; };
+		51569D301916BE4000CD05BF /* DealCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealCategory.m; sourceTree = "<group>"; };
+		51569D321916BF7900CD05BF /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		51569D331916BF7900CD05BF /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		5180C4401924315A00C19404 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RHPerks/Images.xcassets; sourceTree = "<group>"; };
+		51B55F621917F23E0017DF6C /* rosehulmanlogo (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rosehulmanlogo (1).jpg"; sourceTree = "<group>"; };
+		51BE328518DBC4A000C4678E /* Official Rose-Hulman Res-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Official Rose-Hulman Res-13.jpg"; sourceTree = "<group>"; };
+		51BE328618DBC4A000C4678E /* Official Rose-Hulman Red & White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Official Rose-Hulman Red & White.jpg"; sourceTree = "<group>"; };
+		51BE328718DBC4A000C4678E /* RH-AA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RH-AA.jpg"; sourceTree = "<group>"; };
+		51BE328C18DBCC5800C4678E /* 129091-simple-red-square-icon-food-beverage-knife-fork2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129091-simple-red-square-icon-food-beverage-knife-fork2.png"; sourceTree = "<group>"; };
+		51BE328D18DBCC5800C4678E /* 129300-simple-red-square-icon-people-things-bed1-sc43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129300-simple-red-square-icon-people-things-bed1-sc43.png"; sourceTree = "<group>"; };
+		51BE328E18DBCC5800C4678E /* 129867-simple-red-square-icon-symbols-shapes-comment-bubbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129867-simple-red-square-icon-symbols-shapes-comment-bubbles.png"; sourceTree = "<group>"; };
+		51BE328F18DBCC5800C4678E /* 128520-simple-red-square-icon-business-cart-7dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "128520-simple-red-square-icon-business-cart-7dots.png"; sourceTree = "<group>"; };
+		51BE329018DBCC5800C4678E /* 128579-simple-red-square-icon-business-dollar-solid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "128579-simple-red-square-icon-business-dollar-solid.png"; sourceTree = "<group>"; };
+		51BE329118DBCC5800C4678E /* 129045-simple-red-square-icon-food-beverage-drink-glass5-sc48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "129045-simple-red-square-icon-food-beverage-drink-glass5-sc48.png"; sourceTree = "<group>"; };
+		51EBB72018FCAF6E00524084 /* DealDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealDetailViewController.h; sourceTree = "<group>"; };
+		51EBB72118FCAF6E00524084 /* DealDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealDetailViewController.m; sourceTree = "<group>"; };
+		51F817831924133600594F16 /* Rose Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rose Logo.jpg"; sourceTree = "<group>"; };
+		DEBF8E251A59E6240062DFED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DEBF8E261A59E6240062DFED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DEBF8E271A59E6240062DFED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E451E3A21A1FFBEA00D7E46E /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		E451E3A31A1FFBEA00D7E46E /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510C90EC18DB6B0E00AEDDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510C90F518DB6B0E00AEDDE4 /* CoreGraphics.framework in Frameworks */,
+				510C90F718DB6B0E00AEDDE4 /* UIKit.framework in Frameworks */,
+				510C90F318DB6B0E00AEDDE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510C90E618DB6B0E00AEDDE4 = {
+			isa = PBXGroup;
+			children = (
+				5180C4401924315A00C19404 /* Images.xcassets */,
+				510C90F818DB6B0E00AEDDE4 /* RosePerksTest */,
+				510C90F118DB6B0E00AEDDE4 /* Frameworks */,
+				510C90F018DB6B0E00AEDDE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		510C90F018DB6B0E00AEDDE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510C90EF18DB6B0E00AEDDE4 /* Muft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510C90F118DB6B0E00AEDDE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				510C90F218DB6B0E00AEDDE4 /* Foundation.framework */,
+				510C90F418DB6B0E00AEDDE4 /* CoreGraphics.framework */,
+				510C90F618DB6B0E00AEDDE4 /* UIKit.framework */,
+				510C911118DB6B0E00AEDDE4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		510C90F818DB6B0E00AEDDE4 /* RosePerksTest */ = {
+			isa = PBXGroup;
+			children = (
+				51569D321916BF7900CD05BF /* CategoryViewController.h */,
+				51569D331916BF7900CD05BF /* CategoryViewController.m */,
+				51569D2F1916BE4000CD05BF /* DealCategory.h */,
+				51569D301916BE4000CD05BF /* DealCategory.m */,
+				510C910118DB6B0E00AEDDE4 /* RHAppDelegate.h */,
+				510C910218DB6B0E00AEDDE4 /* RHAppDelegate.m */,
+				510C910418DB6B0E00AEDDE4 /* Main.storyboard */,
+				510C910718DB6B0E00AEDDE4 /* ViewController.h */,
+				510C910818DB6B0E00AEDDE4 /* ViewController.m */,
+				5154790C1923F02000ADF090 /* LoginViewController.h */,
+				5154790D1923F02000ADF090 /* LoginViewController.m */,
+				512A138818FC6508008DEE7D /* List.h */,
+				512A138918FC6508008DEE7D /* List.m */,
+				512A138B18FC66CA008DEE7D /* Parser.h */,
+				E451E3A21A1FFBEA00D7E46E /* MasterTableViewController.h */,
+				E451E3A31A1FFBEA00D7E46E /* MasterTableViewController.m */,
+				512A138C18FC66CA008DEE7D /* Parser.m */,
+				0A96463319118DF0006CF535 /* RHUIImageResizing.h */,
+				0A96463419118DF0006CF535 /* RHUIImageResizing.m */,
+				51EBB72018FCAF6E00524084 /* DealDetailViewController.h */,
+				51EBB72118FCAF6E00524084 /* DealDetailViewController.m */,
+				DEBF8E251A59E6240062DFED /* Default-568h@2x.png */,
+				DEBF8E261A59E6240062DFED /* Default.png */,
+				DEBF8E271A59E6240062DFED /* Default@2x.png */,
+				51BE328B18DBC4A900C4678E /* images */,
+				510C910A18DB6B0E00AEDDE4 /* Rose Logo.jpg */,
+				510C90F918DB6B0E00AEDDE4 /* Supporting Files */,
+			);
+			path = RosePerksTest;
+			sourceTree = "<group>";
+		};
+		510C90F918DB6B0E00AEDDE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				510C90FA18DB6B0E00AEDDE4 /* Muft-Info.plist */,
+				510C90FB18DB6B0E00AEDDE4 /* InfoPlist.strings */,
+				510C90FE18DB6B0E00AEDDE4 /* main.m */,
+				510C910018DB6B0E00AEDDE4 /* Muft-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51BE328B18DBC4A900C4678E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				51358FB919241495006A3D2E /* apple-touch-icon-57x57.png */,
+				51358FBA19241495006A3D2E /* apple-touch-icon-72x72.png */,
+				51358FBB19241495006A3D2E /* apple-touch-icon-76x76.png */,
+				51358FBC19241495006A3D2E /* apple-touch-icon-114x114.png */,
+				51358FBD19241495006A3D2E /* apple-touch-icon-120x120.png */,
+				51358FBE19241495006A3D2E /* apple-touch-icon-144x144.png */,
+				51358FBF19241495006A3D2E /* apple-touch-icon-152x152.png */,
+				51358FC019241495006A3D2E /* apple-touch-icon.png */,
+				51358FC119241495006A3D2E /* favicon.ico */,
+				51F817831924133600594F16 /* Rose Logo.jpg */,
+				51B55F621917F23E0017DF6C /* rosehulmanlogo (1).jpg */,
+				51569D2A1916BB4500CD05BF /* category_129921_simple_red_square_icon_symbols_shapes_spinner1 (1).png */,
+				51BE328C18DBCC5800C4678E /* 129091-simple-red-square-icon-food-beverage-knife-fork2.png */,
+				51BE328D18DBCC5800C4678E /* 129300-simple-red-square-icon-people-things-bed1-sc43.png */,
+				51BE328E18DBCC5800C4678E /* 129867-simple-red-square-icon-symbols-shapes-comment-bubbles.png */,
+				51BE328F18DBCC5800C4678E /* 128520-simple-red-square-icon-business-cart-7dots.png */,
+				51BE329018DBCC5800C4678E /* 128579-simple-red-square-icon-business-dollar-solid.png */,
+				0A903FAE1923E6C8007202AE /* 129999-simple-red-square-icon-transport-travel-transportation-car9-sc44.png */,
+				51BE329118DBCC5800C4678E /* 129045-simple-red-square-icon-food-beverage-drink-glass5-sc48.png */,
+				51BE328518DBC4A000C4678E /* Official Rose-Hulman Res-13.jpg */,
+				51BE328618DBC4A000C4678E /* Official Rose-Hulman Red & White.jpg */,
+				51BE328718DBC4A000C4678E /* RH-AA.jpg */,
+				510C912918DB7DE800AEDDE4 /* background_not_complete.jpg */,
+				510C912718DB763600AEDDE4 /* imgres.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510C90EE18DB6B0E00AEDDE4 /* Muft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510C912118DB6B0E00AEDDE4 /* Build configuration list for PBXNativeTarget "Muft" */;
+			buildPhases = (
+				510C90EB18DB6B0E00AEDDE4 /* Sources */,
+				510C90EC18DB6B0E00AEDDE4 /* Frameworks */,
+				510C90ED18DB6B0E00AEDDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muft;
+			productName = RosePerksTest;
+			productReference = 510C90EF18DB6B0E00AEDDE4 /* Muft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510C90E718DB6B0E00AEDDE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rose-Hulman";
+				TargetAttributes = {
+					510C90EE18DB6B0E00AEDDE4 = {
+						DevelopmentTeam = YD7M5CPHAE;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 510C90EA18DB6B0E00AEDDE4 /* Build configuration list for PBXProject "Muft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 510C90E618DB6B0E00AEDDE4;
+			productRefGroup = 510C90F018DB6B0E00AEDDE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510C90EE18DB6B0E00AEDDE4 /* Muft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510C90ED18DB6B0E00AEDDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BE329418DBCC5800C4678E /* 129867-simple-red-square-icon-symbols-shapes-comment-bubbles.png in Resources */,
+				51569D2B1916BB4500CD05BF /* category_129921_simple_red_square_icon_symbols_shapes_spinner1 (1).png in Resources */,
+				DEBF8E291A59E6240062DFED /* Default.png in Resources */,
+				51358FC319241495006A3D2E /* apple-touch-icon-72x72.png in Resources */,
+				51358FC619241495006A3D2E /* apple-touch-icon-120x120.png in Resources */,
+				51358FC819241495006A3D2E /* apple-touch-icon-152x152.png in Resources */,
+				DEBF8E281A59E6240062DFED /* Default-568h@2x.png in Resources */,
+				51358FC719241495006A3D2E /* apple-touch-icon-144x144.png in Resources */,
+				DEF7B3641A51FC8A00D0D43A /* Main.storyboard in Resources */,
+				51BE329618DBCC5800C4678E /* 128579-simple-red-square-icon-business-dollar-solid.png in Resources */,
+				51BE329218DBCC5800C4678E /* 129091-simple-red-square-icon-food-beverage-knife-fork2.png in Resources */,
+				51BE328918DBC4A000C4678E /* Official Rose-Hulman Red & White.jpg in Resources */,
+				DEBF8E2A1A59E6240062DFED /* Default@2x.png in Resources */,
+				51358FC519241495006A3D2E /* apple-touch-icon-114x114.png in Resources */,
+				51BE328A18DBC4A000C4678E /* RH-AA.jpg in Resources */,
+				510C912818DB763600AEDDE4 /* imgres.jpg in Resources */,
+				510C912A18DB7DE800AEDDE4 /* background_not_complete.jpg in Resources */,
+				510C910B18DB6B0E00AEDDE4 /* Rose Logo.jpg in Resources */,
+				51BE329518DBCC5800C4678E /* 128520-simple-red-square-icon-business-cart-7dots.png in Resources */,
+				510C90FD18DB6B0E00AEDDE4 /* InfoPlist.strings in Resources */,
+				51BE329318DBCC5800C4678E /* 129300-simple-red-square-icon-people-things-bed1-sc43.png in Resources */,
+				51358FC919241495006A3D2E /* apple-touch-icon.png in Resources */,
+				51BE329718DBCC5800C4678E /* 129045-simple-red-square-icon-food-beverage-drink-glass5-sc48.png in Resources */,
+				5180C4411924315A00C19404 /* Images.xcassets in Resources */,
+				51B55F631917F23E0017DF6C /* rosehulmanlogo (1).jpg in Resources */,
+				51BE328818DBC4A000C4678E /* Official Rose-Hulman Res-13.jpg in Resources */,
+				51358FC219241495006A3D2E /* apple-touch-icon-57x57.png in Resources */,
+				51358FCA19241495006A3D2E /* favicon.ico in Resources */,
+				51358FC419241495006A3D2E /* apple-touch-icon-76x76.png in Resources */,
+				0A903FAF1923E6C8007202AE /* 129999-simple-red-square-icon-transport-travel-transportation-car9-sc44.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510C90EB18DB6B0E00AEDDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51569D341916BF7900CD05BF /* CategoryViewController.m in Sources */,
+				510C910318DB6B0E00AEDDE4 /* RHAppDelegate.m in Sources */,
+				51EBB72218FCAF6E00524084 /* DealDetailViewController.m in Sources */,
+				512A138A18FC6508008DEE7D /* List.m in Sources */,
+				510C90FF18DB6B0E00AEDDE4 /* main.m in Sources */,
+				0A96463519118DF0006CF535 /* RHUIImageResizing.m in Sources */,
+				510C910918DB6B0E00AEDDE4 /* ViewController.m in Sources */,
+				5154790E1923F02000ADF090 /* LoginViewController.m in Sources */,
+				51569D311916BE4000CD05BF /* DealCategory.m in Sources */,
+				E451E3A41A1FFBEA00D7E46E /* MasterTableViewController.m in Sources */,
+				512A138D18FC66CA008DEE7D /* Parser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		510C90FB18DB6B0E00AEDDE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510C90FC18DB6B0E00AEDDE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		510C910418DB6B0E00AEDDE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510C910518DB6B0E00AEDDE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		510C911F18DB6B0E00AEDDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		510C912018DB6B0E00AEDDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		510C912218DB6B0E00AEDDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RosePerksTest/Muft-Prefix.pch";
+				INFOPLIST_FILE = "RosePerksTest/Muft-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Muft;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		510C912318DB6B0E00AEDDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RosePerksTest/Muft-Prefix.pch";
+				INFOPLIST_FILE = "RosePerksTest/Muft-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = Muft;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510C90EA18DB6B0E00AEDDE4 /* Build configuration list for PBXProject "Muft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510C911F18DB6B0E00AEDDE4 /* Debug */,
+				510C912018DB6B0E00AEDDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		510C912118DB6B0E00AEDDE4 /* Build configuration list for PBXNativeTarget "Muft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510C912218DB6B0E00AEDDE4 /* Debug */,
+				510C912318DB6B0E00AEDDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 510C90E718DB6B0E00AEDDE4 /* Project object */;
+}
